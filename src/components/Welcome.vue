@@ -8,10 +8,12 @@
         hidden-sm-and-down
         md6
       >
-        <v-img
-          :src="require('@/assets/welcome.png')"
-          height="100vh"
-        />
+        <div class="make-100-vh">
+          <v-img
+            class="make-full-height"
+            :src="require('@/assets/welcome.png')"
+          />
+        </div>
       </v-flex>
 
       <v-flex
@@ -32,22 +34,21 @@
         >
           <v-flex
             xs10
-            md6
+            md10
           >
-            <base-heading>Welcome!</base-heading>
+            <base-heading id="mara">
+              Mara
+            </base-heading>
+            <base-heading id="h">
+              Hernandez
+            </base-heading>
+            <base-heading id="v">
+              Villanueva
+            </base-heading>
             <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+              Welcome to my page!<br>
+              Hope you have a great time
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
           </v-flex>
         </v-layout>
 
@@ -58,3 +59,22 @@
     </v-layout>
   </section>
 </template>
+
+<style>
+.make-100-vh {
+  height: 100vh;
+  padding: 100px 20px 100px 20px;
+}
+.make-full-height {
+  height: 100%;
+
+}
+#mara {
+  font-size: 150px!important;
+  font-weight: 500!important
+}
+
+#h, #v {
+  font-size: 90px!important;
+}
+</style>
