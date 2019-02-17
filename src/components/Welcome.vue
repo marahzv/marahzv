@@ -3,17 +3,16 @@
     id="welcome"
     class="hide-overflow"
   >
-    <v-layout>
+    <core-toolbar />
+    <v-layout class="make-100-vh" row wrap>
       <v-flex
         hidden-sm-and-down
         md6
       >
-        <div class="make-100-vh">
-          <v-img
-            class="make-full-height"
-            :src="require('@/assets/welcome.png')"
-          />
-        </div>
+        <v-img
+          class="make-full-height"
+          :src="require('@/assets/welcome.png')"
+        />
       </v-flex>
 
       <v-flex
@@ -24,10 +23,6 @@
         :pa-5="$vuetify.breakpoint.smAndDown"
         wrap
       >
-        <base-bubble-1
-          style="transform: rotate(180deg) translateY(25%)"
-        />
-
         <v-layout
           align-center
           justify-center
@@ -36,40 +31,46 @@
             xs10
             md10
           >
-            <base-heading id="mara">
-              Mara
-            </base-heading>
-            <base-heading id="h">
-              Hernandez
-            </base-heading>
-            <base-heading id="v">
-              Villanueva
-            </base-heading>
+            <base-heading id="m">Mara</base-heading>
+            <base-heading id="h">Hernandez</base-heading>
+            <base-heading id="v">Villanueva</base-heading>
             <base-text>
               Welcome to my page!<br>
               Hope you have a great time
             </base-text>
           </v-flex>
         </v-layout>
-
-        <base-bubble-2
-          style="transform: rotate(180deg) translate(-200px, -15%)"
-        />
+      </v-flex>
+      <v-flex id="navbar" class="text-xs-center justify-center" md12>
+        <core-navbar />
       </v-flex>
     </v-layout>
+    <core-footer />
   </section>
 </template>
+
+<script>
+export default {
+  components: {
+    CoreToolbar: () => import('@/components/core/Toolbar'),
+    CoreNavbar: () => import('@/components/core/Navbar'),
+    CoreFooter: () => import('@/components/core/Footer')
+  }
+}
+</script>
 
 <style>
 .make-100-vh {
   height: 100vh;
-  padding: 100px 20px 100px 20px;
+  padding: 100px 20px 50px 100px;
 }
 .make-full-height {
   height: 100%;
-
 }
-#mara {
+#navbar {
+  margin-top: 50px;
+}
+#m {
   font-size: 150px!important;
   font-weight: 500!important
 }
