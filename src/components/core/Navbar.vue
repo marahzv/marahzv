@@ -1,16 +1,29 @@
 <template>
   <div>
-    <v-btn large color="btn info">Work Experience</v-btn>
-    <v-btn large color="btn info">Projects</v-btn>
-    <v-btn large color="btn info">About</v-btn>
-    <v-btn large color="btn info">Contact Me</v-btn>
+    <v-btn v-for="button in buttons" :key="button.routeName" :to="{ name: button.routeName }" class="navbarButton" color="info" large>
+      <v-icon v-if="button.icon" class="btn-icon" dark v-text="button.icon" /> {{ button.name }}
+    </v-btn>
   </div>
 </template>
 
+<script>
+export default {
+  props: {
+    buttons: {
+      type: Array,
+      required: true
+    }
+  }
+}
+</script>
+
 <style>
-.btn {
+.navbarButton {
   margin-left: 20px;
   margin-right: 20px;
-  width: 200px!important;
+  width: 220px!important;
+}
+.btn-icon {
+  margin-right: 10px;
 }
 </style>

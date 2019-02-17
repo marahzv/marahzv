@@ -3,8 +3,8 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-function loadComponent (component) {
-  return () => import(/* webpackChunkName: "component-[request]" */ `@/components/${component}.vue`)
+function loadViews (component) {
+  return () => import(/* webpackChunkName: "component-[request]" */ `@/views/${component}.vue`)
 }
 
 export default new Router({
@@ -14,7 +14,12 @@ export default new Router({
     {
       path: '/',
       name: 'Welcome',
-      component: loadComponent('Welcome')
+      component: loadViews('Welcome')
+    },
+    {
+      path: '/experience',
+      name: 'Experience',
+      component: loadViews('Experience')
     }
   ]
 })

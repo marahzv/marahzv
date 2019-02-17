@@ -1,36 +1,13 @@
 <template>
-  <section
-    id="welcome"
-    class="hide-overflow"
-  >
+  <section id="welcome" class="hide-overflow">
     <core-toolbar />
     <v-layout class="make-100-vh" row wrap>
-      <v-flex
-        hidden-sm-and-down
-        md6
-      >
-        <v-img
-          class="make-full-height"
-          :src="require('@/assets/welcome.png')"
-        />
+      <v-flex hidden-sm-and-down md6>
+        <v-img class="make-full-height" :src="require('@/assets/welcome.png')" />
       </v-flex>
-
-      <v-flex
-        xs12
-        md6
-        align-content-space-between
-        layout
-        :pa-5="$vuetify.breakpoint.smAndDown"
-        wrap
-      >
-        <v-layout
-          align-center
-          justify-center
-        >
-          <v-flex
-            xs10
-            md10
-          >
+      <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
+        <v-layout align-center justify-center>
+          <v-flex xs10 md10>
             <base-heading id="m">Mara</base-heading>
             <base-heading id="h">Hernandez</base-heading>
             <base-heading id="v">Villanueva</base-heading>
@@ -42,7 +19,7 @@
         </v-layout>
       </v-flex>
       <v-flex id="navbar" class="text-xs-center justify-center" md12>
-        <core-navbar />
+        <core-navbar :buttons="buttons" />
       </v-flex>
     </v-layout>
     <core-footer />
@@ -55,7 +32,31 @@ export default {
     CoreToolbar: () => import('@/components/core/Toolbar'),
     CoreNavbar: () => import('@/components/core/Navbar'),
     CoreFooter: () => import('@/components/core/Footer')
-  }
+  },
+  data: () => ({
+    buttons: [
+      {
+        name: 'Work Experience',
+        routeName: 'Experience',
+        icon: 'mdi-briefcase-outline'
+      },
+      {
+        name: 'Projects',
+        routeName: 'Projects',
+        icon: 'mdi-folder-multiple-outline'
+      },
+      {
+        name: 'About',
+        routeName: 'About',
+        icon: 'mdi-information-outline'
+      },
+      {
+        name: 'Contact Me',
+        routeName: 'Contact',
+        icon: 'mdi-account-box-outline'
+      }
+    ]
+  })
 }
 </script>
 
