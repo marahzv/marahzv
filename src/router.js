@@ -17,8 +17,23 @@ export default new Router({
       component: loadViews('Welcome')
     },
     {
+      path: '/about',
+      name: 'About',
+      component: loadViews('Experience')
+    },
+    {
       path: '/experience',
       name: 'Experience',
+      component: loadViews('Experience')
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: loadViews('Experience')
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
       component: loadViews('Experience')
     }
   ]
