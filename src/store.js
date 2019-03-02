@@ -5,18 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    articles: require('@/data/experience.json'),
-    drawer: false,
-    items: [
-      {
-        text: 'Home',
-        to: '/'
-      },
-      {
-        text: 'About',
-        href: '#about'
-      }
-    ]
+    articles: require('@/data/experience.json')
   },
   getters: {
     categories: state => {
@@ -41,12 +30,5 @@ export default new Vuex.Store({
     links: (state, getters) => {
       return state.items.concat(getters.categories)
     }
-  },
-  mutations: {
-    setDrawer: (state, payload) => (state.drawer = payload),
-    toggleDrawer: state => (state.drawer = !state.drawer)
-  },
-  actions: {
-
   }
 })
