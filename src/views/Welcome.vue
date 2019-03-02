@@ -7,13 +7,12 @@
       </v-flex>
       <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
         <v-layout align-center justify-center>
-          <v-flex xs10 md10>
+          <v-flex xs10 md10 class="text-xs-center">
             <base-heading id="m">Mara</base-heading>
             <base-heading id="h">Hernandez</base-heading>
             <base-heading id="v">Villanueva</base-heading>
             <base-text>
-              Welcome to my page!<br>
-              Hope you have a great time
+              Multilingual final year Bachelor of Arts student focused in Fashion Management/Marketing from the University of Southampton.
             </base-text>
           </v-flex>
         </v-layout>

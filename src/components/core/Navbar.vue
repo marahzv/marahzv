@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-btn v-for="button in buttons" :key="button.routeName" :to="{ name: button.routeName }" class="navbarButton" color="info" large>
+    <v-btn v-for="button in buttons" :key="button.routeName" :to="{ name: button.routeName }" class="navbarButton" color="info" round large>
       <v-icon v-if="button.icon" class="btn-icon" dark v-text="button.icon" /> {{ button.name }}
     </v-btn>
   </div>
