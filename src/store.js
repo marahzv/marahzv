@@ -5,30 +5,17 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    articles: require('@/data/experience.json')
+    experience: require('@/data/experience.json'),
+    projects: require('@/data/projects.json')
   },
   getters: {
-    categories: state => {
-      const categories = []
-
-      for (const article of state.articles) {
-        if (
-          !article.category ||
-          categories.find(category => category.text === article.category)
-        ) continue
-
-        const text = article.category
-
-        categories.push({
-          text,
-          to: `/category/${text}`
-        })
-      }
-
-      return categories.sort().slice(0, 4)
+    getExperience: state => state.experience,
+    getExperienceBySlug: (state) => (slug) => {
+      return state.experience[slug]
     },
-    links: (state, getters) => {
-      return state.items.concat(getters.categories)
+    getProjects: state => state.projects,
+    getProjectsBySlug: (state, getters) => (slug) => {
+      return state.projects[slug]
     }
   }
 })

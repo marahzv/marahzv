@@ -1,41 +1,40 @@
 <template>
-  <v-container
-    grid-list-xl
-  >
+  <v-container grid-list-xl>
     <v-layout wrap>
       <v-flex xs12>
         <slot />
       </v-flex>
-
       <feed-card
-        v-for="(article, i) in articles"
-        :key="article.title"
+        v-for="(item, slug, i) in data"
+        :key="slug"
+        :slug="slug"
         :size="layout[i]"
-        :value="article"
+        :value="item"
+        :to="{ name: singleComponent, params: { slug: slug } }"
       />
     </v-layout>
   </v-container>
 </template>
 
 <script>
-// Utilities
-import {
-  mapState
-} from 'vuex'
-
 export default {
   name: 'Feed',
-
   components: {
     FeedCard: () => import('@/components/FeedCard')
   },
-
-  data: () => ({
-    layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 2, 1]
-  }),
-
-  computed: {
-    ...mapState(['articles'])
+  props: {
+    data: {
+      type: Object,
+      required: true
+    },
+    layout: {
+      type: Array,
+      default: () => ([])
+    },
+    singleComponent: {
+      type: String,
+      default: undefined
+    }
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <v-flex sm10 offset-sm1>
-      <v-jumbotron height="200px" class="mt-5">
+      <v-responsive height="200px" class="mt-5 dark">
         <v-container fill-height>
           <v-layout align-center>
             <v-flex>
@@ -18,7 +18,7 @@
             </v-flex>
           </v-layout>
         </v-container>
-      </v-jumbotron>
+      </v-responsive>
     </v-flex>
   </v-layout>
 </template>
@@ -39,4 +39,6 @@ export default {
     margin-right: 10px;
   .display-3
     font-family: Raleway,sans-serif!important;
+  .dark
+    color: rgba(0,0,0,.87);
 </style>

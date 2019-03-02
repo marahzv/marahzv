@@ -29,7 +29,12 @@ export default new Router({
     {
       path: '/projects',
       name: 'Projects',
-      component: loadViews('Experience')
+      component: loadViews('Projects')
+    },
+    {
+      path: '/projects/:slug',
+      name: 'ProjectsSingle',
+      component: loadViews('ProjectsSingle')
     },
     {
       path: '/contact',
