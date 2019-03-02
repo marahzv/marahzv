@@ -1,9 +1,9 @@
 <template>
   <section id="welcome" class="hide-overflow">
     <core-toolbar />
-    <v-layout class="make-100-vh" row wrap>
+    <v-layout id="welcomeLayout" row wrap>
       <v-flex hidden-sm-and-down md6>
-        <v-img class="make-full-height" :src="require('@/assets/welcome.png')" />
+        <v-img id="profileImg" :src="require('@/assets/welcome.png')" />
       </v-flex>
       <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
         <v-layout align-center justify-center>
@@ -61,12 +61,11 @@ export default {
 </script>
 
 <style>
-.make-100-vh {
-  height: 100vh;
-  padding: 100px 20px 50px 100px;
+#welcomeLayout {
+  padding: 50px 50px 50px 50px;
 }
-.make-full-height {
-  height: 100%;
+#profileImg {
+  height: 600px;
 }
 #navbar {
   margin-top: 50px;
@@ -75,7 +74,6 @@ export default {
   font-size: 150px!important;
   font-weight: 500!important
 }
-
 #h, #v {
   font-size: 90px!important;
 }
