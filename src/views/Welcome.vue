@@ -3,7 +3,7 @@
     <core-toolbar />
     <v-layout id="welcomeLayout" row wrap>
       <v-flex hidden-sm-and-down md6>
-        <v-img id="profileImg" :src="require('@/assets/welcome.png')" />
+        <v-img id="profileImg" :src="require('@/assets/welcome.jpg')" />
       </v-flex>
       <v-flex xs12 md6 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
         <v-layout align-center justify-center>
