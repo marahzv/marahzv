@@ -1,8 +1,5 @@
 <template>
-  <p
-    class="title font-weight-light"
-    style="line-height: 1.7 !important;"
-  >
+  <p class="font-weight-light" style="line-height: 1.7 !important;">
     <slot />
   </p>
 </template>

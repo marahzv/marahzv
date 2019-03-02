@@ -37,4 +37,6 @@ export default {
 <style lang="sass" scoped>
   .v-icon
     margin-right: 10px;
+  .display-3
+    font-family: Raleway,sans-serif!important;
 </style>

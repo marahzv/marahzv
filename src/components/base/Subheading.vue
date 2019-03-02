@@ -1,8 +1,5 @@
 <template>
-  <component
-    :is="tag"
-    class="display-1 v-heading mb-3 font-weight-light"
-  >
+  <component :is="tag" class="v-heading mb-3 font-weight-light">
     <slot />
   </component>
 </template>
