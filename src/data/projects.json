@@ -121,15 +121,15 @@
     "title": "Sora Moodboards", 
     "text": "Inspiration of the Sora brand, its products, shapes and the innovative technologies in denim.  ", 
     "carousel": [
-      "sora_report/1.png", 
-      "sora_report/2.png", 
-      "sora_report/3.png"
+      "sora_moodboards/1.png", 
+      "sora_moodboards/2.png", 
+      "sora_moodboards/3.png"
     ], 
     "date": "January 2018"
   },
   "kurv-store": {
     "category": "Reports", 
-    "hero": "kurv/1.png", 
+    "hero": "kurv/13.png", 
     "title": "Kurv", 
     "text": "Exploratory research in retail logistics, distribution strategy and supply chain. Developed an innovative international strategy focusing on luxurious homewear and retail diaplay.", 
     "carousel": [
@@ -154,7 +154,6 @@
     "title": "Kalmar Photoshoot", 
     "text": "Photoshoot with Kalmar Products", 
     "carousel": [
-      "kalmar_shoot/1.jpg", 
       "kalmar_shoot/2.jpg", 
       "kalmar_shoot/3.jpg", 
       "kalmar_shoot/4.jpg", 
@@ -169,8 +168,7 @@
     "hero": "kalmar_pop_up/1.jpg", 
     "title": "Kalmar Pop-up Store", 
     "text": "Christmas Pop-Up Store in Eccleston Yard", 
-    "carousel": [
-      "kalmar_pop_up/1.jpg", 
+    "carousel": [ 
       "kalmar_pop_up/2.jpg", 
       "kalmar_pop_up/3.jpg", 
       "kalmar_pop_up/4.jpg", 
@@ -225,7 +223,6 @@
     "text": "University Christmas Party, 90's Glitter Theme.", 
     "carousel": [
       "glitter_party/1.jpg", 
-      "glitter_party/2.jpg", 
       "glitter_party/3.jpg", 
       "glitter_party/4.jpg"
     ], 
@@ -307,20 +304,14 @@
     "text": "H&M inspired styling with Anna", 
     "carousel": [
       "anna/1.jpg", 
-      "anna/2.jpg", 
       "anna/3.jpg", 
       "anna/4.jpg", 
-      "anna/5.jpg", 
       "anna/6.jpg", 
-      "anna/7.jpg", 
       "anna/8.jpg", 
       "anna/9.jpg", 
       "anna/10.jpg", 
       "anna/11.jpg", 
-      "anna/12.jpg", 
-      "anna/13.jpg", 
-      "anna/14.jpg", 
-      "anna/15.jpg"
+      "anna/12.jpg"
     ], 
     "date": "March 2017"
   },
@@ -354,9 +345,8 @@
       "rosie/5.jpg", 
       "rosie/6.jpg", 
       "rosie/7.jpg", 
-      "rosie/8.jpg", 
-      "rosie/9.jpg", 
-      "rosie/10.jpg"
+      "rosie/10.jpg",
+      "rosie/9.jpg"
     ], 
     "date": "March 2017"
   },
@@ -394,9 +384,9 @@
     "category": "Styling", 
     "hero": "80s/1.jpg", 
     "title": "80's Inspired Photoshoot",
-    "carousel": [
+    "carousel": [ 
+      "80s/2.jpg",
       "80s/1.jpg", 
-      "80s/2.jpg", 
       "80s/3.jpg"
     ], 
     "date": "May 2011"

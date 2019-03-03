@@ -1,10 +1,10 @@
 <template>
   <section id="welcome" class="hide-overflow">
-    <v-layout id="welcomeLayout" row wrap>
+    <v-layout :class="{'add-border-padding': !$vuetify.breakpoint.xs}" row wrap>
       <v-flex hidden-sm-and-down md4 class="animated slideInLeft">
         <v-img id="profileImg" :src="require('@/assets/welcome.jpg')" />
       </v-flex>
-      <v-flex xs12 md8 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
+      <v-flex xs12 md8 align-content-space-between layout wrap>
         <v-layout align-center justify-center>
           <v-flex xs10 md10 class="text-xs-center animated slideInRight">
             <base-heading id="m" class="mhv-title hidden-sm-and-down">MARA</base-heading>
@@ -24,7 +24,7 @@
 </template>
 
 <style scoped>
-#welcomeLayout {
+.add-border-padding {
   padding: 50px 50px 50px 50px;
 }
 #profileImg {
