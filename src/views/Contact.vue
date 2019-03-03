@@ -2,7 +2,7 @@
   <section id="welcome" class="hide-overflow">
     <v-layout id="welcomeLayout" row wrap>
       <v-flex hidden-sm-and-down md4 class="animated slideInLeft">
-        <v-carousel height="700" interval="1500" hide-delimiters="true">
+        <v-carousel height="600" interval="1500" hide-delimiters>
           <v-carousel-item v-for="(item,i) in aboutCarousel" :key="i" :src="item.src" />
         </v-carousel>
       </v-flex>

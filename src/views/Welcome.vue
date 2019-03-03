@@ -19,26 +19,9 @@
           </v-flex>
         </v-layout>
       </v-flex>
-      <v-flex id="navbar" class="text-xs-center justify-center animated slideInUp delay-1s" md12>
-        <core-navbar :buttons="navbarButtons" />
-      </v-flex>
     </v-layout>
   </section>
 </template>
-
-<script>
-import navbar from '@/plugins/navbar'
-export default {
-  components: {
-    CoreNavbar: () => import('@/components/core/Navbar')
-  },
-  computed: {
-    navbarButtons: function () {
-      return navbar.buttons
-    }
-  }
-}
-</script>
 
 <style scoped>
 #welcomeLayout {

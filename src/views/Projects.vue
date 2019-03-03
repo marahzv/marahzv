@@ -1,7 +1,7 @@
 <template>
   <section id="projects">
     <base-page-heading>
-      Projects
+      PROJECTS
     </base-page-heading>
     <feed :data="getProjects" :layout="layout" :single-component="'ProjectsSingle'">
       <slot />

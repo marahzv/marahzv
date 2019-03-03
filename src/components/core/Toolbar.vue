@@ -1,47 +1,46 @@
 <template>
-  <v-toolbar :color="color" app flat fixed scroll-off-screen>
-    <v-toolbar-items v-if="showNavbarButtons">
-      <v-btn :to="{ path: '/' }" class="navbar-button-toolbar" color="info" text>Home</v-btn>
-      <v-btn v-for="button in navbarButtons" :key="button.routeName" :to="{ name: button.routeName }" class="navbar-button-toolbar" color="info" text>
+  <v-toolbar color="#fafafa" app flat fixed scroll-off-screen>
+    <v-toolbar-title class="title-toolbar"><router-link :to="{ path: '/' }">MARA</router-link></v-toolbar-title>
+    <v-spacer />
+    <v-toolbar-items>
+      <v-btn :to="{ path: '/' }" class="navbar-button-toolbar" exact-active-class="navbar-button-toolbar-active" color="info" text exact>Home</v-btn>
+      <v-btn v-for="button in navbarButtons" :key="button.routeName" :to="{ name: button.routeName }" class="navbar-button-toolbar" exact-active-class="navbar-button-toolbar-active" color="info" text exact>
         {{ button.name }}
       </v-btn>
     </v-toolbar-items>
-    <v-spacer />
-    <SocialMedia class="hidden-xs-only" />
   </v-toolbar>
 </template>
 
 <script>
 import navbar from '@/plugins/navbar'
 export default {
-  components: {
-    SocialMedia: () => import('@/components/SocialMedia')
-  },
   computed: {
-    showNavbarButtons: function () {
-      return this.$route.path !== '/'
-    },
     navbarButtons: function () {
       return navbar.buttons
-    },
-    color: function () {
-      return this.$route.path === '/' ? 'transparent' : '#fafafa'
     }
   }
 }
 </script>
 
 <style scoped>
+.title-toolbar a {
+  font-weight: 800!important;
+  text-decoration: none;
+  color: rgba(0,0,0,.87)!important;
+}
 .navbar-button-toolbar {
   border-bottom: 5px solid transparent;
   border-radius: 0;
+  font-size: 18px;
+  background-color: transparent;
 }
 .navbar-button-toolbar:before {
   background-color: transparent;
 }
 .navbar-button-toolbar:hover {
-  background-color: transparent;
   border-bottom: 5px solid #B8CD7B;
-  border-radius: 0;
+}
+.navbar-button-toolbar-active {
+  font-weight: 800!important;
 }
 </style>
