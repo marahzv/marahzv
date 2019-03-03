@@ -1,12 +1,12 @@
 <template>
   <section id="welcome" class="hide-overflow">
     <v-layout id="welcomeLayout" row wrap>
-      <v-flex hidden-sm-and-down md4>
+      <v-flex hidden-sm-and-down md4 class="animated slideInLeft">
         <v-img id="profileImg" :src="require('@/assets/welcome.jpg')" />
       </v-flex>
       <v-flex xs12 md8 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
         <v-layout align-center justify-center>
-          <v-flex xs10 md10 class="text-xs-center">
+          <v-flex xs10 md10 class="text-xs-center animated slideInRight">
             <base-heading id="m" class="mhv-title hidden-sm-and-down">MARA</base-heading>
             <base-heading id="mhv-sm" class="mhv-title hidden-md-and-up hidden-xs-only">MHV</base-heading>
             <base-heading id="mhv-xs" class="mhv-title hidden-sm-and-up">M</base-heading>
@@ -19,7 +19,7 @@
           </v-flex>
         </v-layout>
       </v-flex>
-      <v-flex id="navbar" class="text-xs-center justify-center" md12>
+      <v-flex id="navbar" class="text-xs-center justify-center animated slideInUp delay-1s" md12>
         <core-navbar :buttons="navbarButtons" />
       </v-flex>
     </v-layout>

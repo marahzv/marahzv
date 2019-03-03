@@ -4,7 +4,7 @@
       <v-responsive class="mt-5 dark">
         <v-container fill-height>
           <v-layout align-center>
-            <v-flex>
+            <v-flex class="animated slideInDown">
               <h3 class="display-3">
                 <slot />
               </h3>

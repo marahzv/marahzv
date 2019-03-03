@@ -6,6 +6,7 @@ import App from './App.vue'
 import store from './store'
 import router from './router'
 import '@mdi/font/css/materialdesignicons.min.css'
+import 'animate.css/animate.min.css'
 Vue.config.productionTip = false
 
 new Vue({
