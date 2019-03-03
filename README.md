@@ -1,4 +1,7 @@
-# Freelancer Theme for Vuetify
+# My Personal Website
+
+[http://marahzv.com](http://marahzv.com)
+
 
 ## Project setup
 ```
@@ -25,5 +28,4 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Based on [https://github.com/vuetifyjs/theme-freelancer](https://github.com/vuetifyjs/theme-freelancer)
