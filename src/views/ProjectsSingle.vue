@@ -8,7 +8,7 @@
       <v-layout wrap>
         <v-flex xs12>
           <base-text v-if="project.text" class="text-xs-center">{{ project.text }}</base-text>
-          <v-carousel v-if="project.carousel" :interval="1500" :height="800">
+          <v-carousel v-if="project.carousel" :interval="1500" :height="800" hide-delimiters="true">
             <v-carousel-item v-for="(item,i) in carousel" :key="i" :src="item.src" />
           </v-carousel>
           <v-container grid-list-md text-xs-center>

@@ -2,7 +2,7 @@
   <section id="welcome" class="hide-overflow">
     <v-layout id="welcomeLayout" row wrap>
       <v-flex hidden-sm-and-down md4>
-        <v-carousel height="700" interval="1500">
+        <v-carousel height="700" interval="1500" hide-delimiters="true">
           <v-carousel-item v-for="(item,i) in aboutCarousel" :key="i" :src="item.src" />
         </v-carousel>
       </v-flex>
@@ -33,7 +33,17 @@ export default {
     aboutCarousel: [
       { src: require('@/assets/about/1.jpg') },
       { src: require('@/assets/about/2.jpg') },
-      { src: require('@/assets/about/3.jpg') }
+      { src: require('@/assets/about/3.jpg') },
+      { src: require('@/assets/about/4.jpg') },
+      { src: require('@/assets/about/5.jpg') },
+      { src: require('@/assets/about/6.jpg') },
+      { src: require('@/assets/about/7.jpg') },
+      { src: require('@/assets/about/8.jpg') },
+      { src: require('@/assets/about/9.jpg') },
+      { src: require('@/assets/about/10.jpg') },
+      { src: require('@/assets/about/11.jpg') },
+      { src: require('@/assets/about/12.jpg') },
+      { src: require('@/assets/about/13.jpg') }
     ]
   })
 }
