@@ -1,6 +1,6 @@
 <template>
   <section id="projects-single">
-    <base-page-heading :back-path="{ name: 'Projects' }">
+    <base-page-heading>
       {{ project.title }}
       <template v-if="project.subtitle" slot="sub">{{ project.subtitle }}</template>
     </base-page-heading>

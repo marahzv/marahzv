@@ -12,7 +12,7 @@
             <base-heading id="m" class="mhv-title hidden-sm-and-down">MARA</base-heading>
             <base-heading id="mhv-sm" class="mhv-title hidden-md-and-up hidden-xs-only">MHV</base-heading>
             <base-heading id="mhv-xs" class="mhv-title hidden-sm-and-up">M</base-heading>
-            <hr class="mhv-divider">
+            <base-divider />
             <base-text id="welcome-text">
               Hola, I’m Mara. Mexican Fashion Management final year student loving life in the UK! I am an extrovert and a collaborator, which means I am great in team-work but also highly adaptable. I love meeting new people and learning about different cultures; I enjoy travelling and trying new food.
             </base-text>
@@ -62,10 +62,6 @@ export default {
 .mhv-title {
   font-weight: 800!important;
   margin-bottom: -20px!important;
-}
-.mhv-divider {
-  border-style: none;
-  border-bottom: 10px solid #B8CD7B;
 }
 #m, #mhv-sm {
   font-size: 150px!important;

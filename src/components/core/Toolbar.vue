@@ -1,9 +1,5 @@
 <template>
-  <v-toolbar
-    color="#fafafa"
-    app
-    flat
-  >
+  <v-toolbar :color="color" app flat fixed scroll-off-screen>
     <v-toolbar-items v-if="showNavbarButtons">
       <v-btn :to="{ path: '/' }" class="navbar-button-toolbar" color="info" text>Home</v-btn>
       <v-btn v-for="button in navbarButtons" :key="button.routeName" :to="{ name: button.routeName }" class="navbar-button-toolbar" color="info" text>
@@ -11,7 +7,7 @@
       </v-btn>
     </v-toolbar-items>
     <v-spacer />
-    <SocialMedia />
+    <SocialMedia class="hidden-xs-only" />
   </v-toolbar>
 </template>
 
@@ -27,6 +23,9 @@ export default {
     },
     navbarButtons: function () {
       return navbar.buttons
+    },
+    color: function () {
+      return this.$route.path === '/' ? 'transparent' : '#fafafa'
     }
   }
 }
