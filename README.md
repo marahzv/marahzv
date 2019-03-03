@@ -18,14 +18,14 @@ yarn run serve
 yarn run build
 ```
 
-### Run your tests
-```
-yarn run test
-```
-
 ### Lints and fixes files
 ```
 yarn run lint
+```
+
+### Deploys to Github Pages
+```
+yarn run deploy
 ```
 
 Based on [https://github.com/vuetifyjs/theme-freelancer](https://github.com/vuetifyjs/theme-freelancer)
