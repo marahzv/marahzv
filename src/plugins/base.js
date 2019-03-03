@@ -1,3 +1,6 @@
+
+/* Custom Base Components */
+
 import Vue from 'vue'
 import BaseBtn from '@/components/base/Btn'
 import BaseHeading from '@/components/base/Heading'

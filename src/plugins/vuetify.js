@@ -1,3 +1,6 @@
+
+/* Vuetify */
+
 import Vue from 'vue'
 import '@/stylus/main.styl'
 import Vuetify from 'vuetify'
