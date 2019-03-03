@@ -19,12 +19,7 @@ export default new Router({
     {
       path: '/about',
       name: 'About',
-      component: loadViews('Experience')
-    },
-    {
-      path: '/experience',
-      name: 'Experience',
-      component: loadViews('Experience')
+      component: loadViews('About')
     },
     {
       path: '/projects',
@@ -39,7 +34,7 @@ export default new Router({
     {
       path: '/contact',
       name: 'Contact',
-      component: loadViews('Experience')
+      component: loadViews('Contact')
     }
   ]
 })

@@ -2,7 +2,9 @@
   <section id="welcome" class="hide-overflow">
     <v-layout id="welcomeLayout" row wrap>
       <v-flex hidden-sm-and-down md4>
-        <v-img id="profileImg" :src="require('@/assets/welcome.jpg')" />
+        <v-carousel height="700" interval="1500">
+          <v-carousel-item v-for="(item,i) in aboutCarousel" :key="i" :src="item.src" />
+        </v-carousel>
       </v-flex>
       <v-flex xs12 md8 align-content-space-between layout :pa-5="$vuetify.breakpoint.smAndDown" wrap>
         <v-layout align-center justify-center>
@@ -11,32 +13,29 @@
             <base-heading id="mhv-sm" class="mhv-title hidden-md-and-up hidden-xs-only">MHV</base-heading>
             <base-heading id="mhv-xs" class="mhv-title hidden-sm-and-up">M</base-heading>
             <hr class="mhv-divider">
-            <base-heading id="h" class="mhv-title hidden-sm-and-down">HERNANDEZ</base-heading>
-            <base-heading id="v" class="mhv-title hidden-sm-and-down">VILLANUEVA</base-heading>
             <base-text id="welcome-text">
-              Multilingual final year Bachelor of Arts student focused in Fashion Management/Marketing from the University of Southampton.  Experienced Sales and Operations Intern with a demonstrated history of working in Marketing, Buying and  Hospitality. Skilled in Visual Communication and Design.
+              Hola, I’m Mara. Mexican Fashion Management final year student loving life in the UK! I am an extrovert and a collaborator, which means I am great in team-work but also highly adaptable. I love meeting new people and learning about different cultures; I enjoy travelling and trying new food.
             </base-text>
+            <social-media large />
           </v-flex>
         </v-layout>
-      </v-flex>
-      <v-flex id="navbar" class="text-xs-center justify-center" md12>
-        <core-navbar :buttons="navbarButtons" />
       </v-flex>
     </v-layout>
   </section>
 </template>
 
 <script>
-import navbar from '@/plugins/navbar'
 export default {
   components: {
-    CoreNavbar: () => import('@/components/core/Navbar')
+    SocialMedia: () => import('@/components/SocialMedia')
   },
-  computed: {
-    navbarButtons: function () {
-      return navbar.buttons
-    }
-  }
+  data: () => ({
+    aboutCarousel: [
+      { src: require('@/assets/about/1.jpg') },
+      { src: require('@/assets/about/2.jpg') },
+      { src: require('@/assets/about/3.jpg') }
+    ]
+  })
 }
 </script>
 
@@ -61,7 +60,7 @@ export default {
 #m, #mhv-sm {
   font-size: 150px!important;
 }
-#h, #v, #mhv-xs {
+#mhv-xs {
   font-size: 90px!important;
 }
 #welcome-text {

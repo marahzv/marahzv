@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    experience: require('@/data/experience.json'),
+    experience: {},
     projects: require('@/data/projects.json')
   },
   getters: {

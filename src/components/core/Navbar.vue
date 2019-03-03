@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-btn v-for="button in buttons" :key="button.routeName" :to="{ name: button.routeName }" class="navbar-button" color="info" flat large>
+    <v-btn v-for="button in buttons" :key="button.routeName" :to="{ name: button.routeName }" class="navbar-button" color="info" text large>
       <v-icon v-if="button.icon" class="btn-icon" v-text="button.icon" /> {{ button.name }}
     </v-btn>
   </div>
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar-button {
   margin-left: 20px;
   margin-right: 20px;
@@ -30,7 +30,7 @@ export default {
 }
 .navbar-button:hover {
   background-color: transparent;
-  border-bottom: 2px solid #B8CD7B;
+  border-bottom: 5px solid #B8CD7B;
   border-radius: 0;
 }
 .btn-icon {
