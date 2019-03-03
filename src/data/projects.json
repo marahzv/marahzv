@@ -1,74 +1,404 @@
 {
-  "my-slug-0": {
-    "category": "Travel", 
-    "hero": "moroccandays.jpg",
-    "title": "Moroccan Days",
-    "text": "TEXT ON SINGLE PAGE",
-    "date": "THIS IS THE DATE"
-  }, 
-  "my-slug-1": {
-    "category": "Leisure", 
-    "hero": "autumnclouds.jpg", 
-    "title": "Swedish Fishing"
+  "modern-consumption-in-luxury": {
+    "category": "Reports", 
+    "hero": "modern_consumption_in_luxury/1.png", 
+    "title": "How Does Modern Consumption Influence Counterfeits in the Luxury Market?", 
+    "text": "This report examines how modern consumption, especially within Generation Z, influence counterfeits in the luxury market. The luxury market has had a steady growth and is still predicted to grow, but with popularity within the luxury market, comes growth in the counterfeit market as well.", 
+    "carousel": [
+      "modern_consumption_in_luxury/1.png", 
+      "modern_consumption_in_luxury/2.png", 
+      "modern_consumption_in_luxury/3.png", 
+      "modern_consumption_in_luxury/4.png", 
+      "modern_consumption_in_luxury/5.png", 
+      "modern_consumption_in_luxury/6.png", 
+      "modern_consumption_in_luxury/7.png", 
+      "modern_consumption_in_luxury/8.png", 
+      "modern_consumption_in_luxury/9.png", 
+      "modern_consumption_in_luxury/10.png", 
+      "modern_consumption_in_luxury/11.png", 
+      "modern_consumption_in_luxury/12.png"
+    ], 
+    "date": "January 2019"
   },
-  "my-slug-2": {
-    "hero": "snowcup.jpg", 
-    "prominent": true, 
-    "title": "The Adventure Begins"
-  }, 
-  "my-slug-10": {
-    "category": "Travel", 
-    "hero": "snowcabin.jpg", 
-    "title": "Cabin Fever"
-  }, 
-  "my-slug-11": {
-    "category": "Travel", 
-    "hero": "ruins.jpg", 
-    "title": "To the ancient ruins"
-  }, 
-  "my-slug-12": {
-    "category": "Travel", 
-    "hero": "umbrella.jpg", 
-    "title": "New fashion trends"
-  }, 
-  "my-slug-13": {
-    "category": "Travel", 
-    "hero": "adventurecave.jpg", 
-    "title": "Go on a vacation"
+  "generation-z-luxury-photoshoot": {
+    "category": "Styling", 
+    "hero": "generation_z/1.jpg", 
+    "title": "Generation Z and Luxury Photoshoot", 
+    "text": "Photoshoot inspired by the importance of counterfeits in the luxury market, especially within Generation Z.", 
+    "carousel": [
+      "generation_z/1.jpg", 
+      "generation_z/2.jpg", 
+      "generation_z/3.jpg", 
+      "generation_z/4.jpg", 
+      "generation_z/5.jpg", 
+      "generation_z/6.jpg", 
+      "generation_z/7.jpg", 
+      "generation_z/8.jpg", 
+      "generation_z/9.jpg", 
+      "generation_z/10.jpg", 
+      "generation_z/11.jpg", 
+      "generation_z/12.jpg", 
+      "generation_z/13.jpg", 
+      "generation_z/14.jpg", 
+      "generation_z/15.jpg", 
+      "generation_z/16.jpg", 
+      "generation_z/17.jpg", 
+      "generation_z/18.jpg", 
+      "generation_z/19.jpg", 
+      "generation_z/20.jpg", 
+      "generation_z/21.jpg", 
+      "generation_z/22.jpg", 
+      "generation_z/23.jpg", 
+      "generation_z/24.jpg", 
+      "generation_z/25.jpg", 
+      "generation_z/26.jpg", 
+      "generation_z/27.jpg", 
+      "generation_z/28.jpg", 
+      "generation_z/29.jpg", 
+      "generation_z/30.jpg", 
+      "generation_z/31.jpg", 
+      "generation_z/32.jpg", 
+      "generation_z/33.jpg", 
+      "generation_z/34.jpg", 
+      "generation_z/35.jpg"
+    ], 
+    "date": "January 2019"
   },
-  "my-slug-3": {
-    "category": "Travel", 
-    "hero": "christmas.jpg", 
-    "title": "Paris in Spring"
-  }, 
-  "my-slug-4": {
-    "category": "Political", 
-    "hero": "july4.jpg", 
-    "title": "Youthful Independence"
-  }, 
-  "my-slug-5": {
-    "category": "Cooking", 
-    "hero": "firepots.jpg", 
-    "title": "Trial By Fire"
-  }, 
-  "my-slug-6": {
-    "category": "Leisure", 
-    "hero": "jellyfish.jpg", 
-    "title": "Water Ventures"
-  }, 
-  "my-slug-7": {
-    "category": "Travel", 
-    "hero": "mountaincabin.jpg", 
-    "title": "Mt. Zekial"
-  }, 
-  "my-slug-8": {
-    "category": "Travel", 
-    "hero": "lightcave.jpg", 
-    "title": "Cozumel Caves"
-  }, 
-  "my-slug-9": {
-    "category": "Travel", 
-    "hero": "greengrass.jpg", 
-    "title": "Amazing Ireland"
+  "overconsumption-video": {
+    "category": "Video", 
+    "date": "May 2017", 
+    "title": "Reflection of Overconsumption Nowadays", 
+    "hero": "counterfeits_video/1.png", 
+    "text": "Video reflecting nowadays consumption and how luxury's market growth has impulsed counterfeits.",
+    "video": "https://player.vimeo.com/video/321051180"
+  },
+  "modern-consumption-analysis": {
+    "category": "Reports", 
+    "hero": "counterfeit_presentation/1.png", 
+    "title": "Modern Consumption Analysis", 
+    "text": "Initial Analysis of Modern Consumption and it's Effect on Counterfeit Products in the Luxury Market", 
+    "carousel": [
+      "counterfeit_presentation/1.png", 
+      "counterfeit_presentation/2.png", 
+      "counterfeit_presentation/3.png", 
+      "counterfeit_presentation/4.png", 
+      "counterfeit_presentation/5.png", 
+      "counterfeit_presentation/6.png", 
+      "counterfeit_presentation/7.png", 
+      "counterfeit_presentation/8.png", 
+      "counterfeit_presentation/9.png"
+    ], 
+    "date": "December 2018"
+  },
+  "sora-brand": {
+    "category": "Reports", 
+    "hero": "sora_report/1.png", 
+    "title": "Sora", 
+    "text": "Sora is a sustainable denim brand created based on current consumer behaviour trends. Selfriedges was the proposed retailer and was analysed in order to predict sales success. ", 
+    "carousel": [
+      "sora_report/1.png", 
+      "sora_report/2.png", 
+      "sora_report/3.png", 
+      "sora_report/4.png", 
+      "sora_report/5.png", 
+      "sora_report/6.png", 
+      "sora_report/7.png", 
+      "sora_report/8.png", 
+      "sora_report/9.png", 
+      "sora_report/10.png", 
+      "sora_report/11.png", 
+      "sora_report/12.png", 
+      "sora_report/13.png", 
+      "sora_report/14.png", 
+      "sora_report/15.png", 
+      "sora_report/16.png", 
+      "sora_report/17.png"
+    ], 
+    "date": "January 2018"
+  },"sora-moodboards": {
+    "category": "Moodboards", 
+    "hero": "sora_moodboards/1.png", 
+    "title": "Sora Moodboards", 
+    "text": "Inspiration of the Sora brand, its products, shapes and the innovative technologies in denim.  ", 
+    "carousel": [
+      "sora_report/1.png", 
+      "sora_report/2.png", 
+      "sora_report/3.png"
+    ], 
+    "date": "January 2018"
+  },
+  "kurv-store": {
+    "category": "Reports", 
+    "hero": "kurv/1.png", 
+    "title": "Kurv", 
+    "text": "Exploratory research in retail logistics, distribution strategy and supply chain. Developed an innovative international strategy focusing on luxurious homewear and retail diaplay.", 
+    "carousel": [
+      "kurv/1.png", 
+      "kurv/2.png", 
+      "kurv/3.png", 
+      "kurv/4.png", 
+      "kurv/5.png", 
+      "kurv/6.png", 
+      "kurv/7.png", 
+      "kurv/8.png", 
+      "kurv/9.png", 
+      "kurv/10.png", 
+      "kurv/11.png", 
+      "kurv/12.png"
+    ], 
+    "date": "May 2018"
+  },
+  "kalmar-photoshoot": {
+    "category": "Styling", 
+    "hero": "kalmar_shoot/1.jpg", 
+    "title": "Kalmar Photoshoot", 
+    "text": "Photoshoot with Kalmar Products", 
+    "carousel": [
+      "kalmar_shoot/1.jpg", 
+      "kalmar_shoot/2.jpg", 
+      "kalmar_shoot/3.jpg", 
+      "kalmar_shoot/4.jpg", 
+      "kalmar_shoot/5.jpg", 
+      "kalmar_shoot/6.jpg", 
+      "kalmar_shoot/7.jpg"
+    ], 
+    "date": "February 2019"
+  },
+  "kalmar-pop-up": {
+    "category": "Events", 
+    "hero": "kalmar_pop_up/1.jpg", 
+    "title": "Kalmar Pop-up Store", 
+    "text": "Christmas Pop-Up Store in Eccleston Yard", 
+    "carousel": [
+      "kalmar_pop_up/1.jpg", 
+      "kalmar_pop_up/2.jpg", 
+      "kalmar_pop_up/3.jpg", 
+      "kalmar_pop_up/4.jpg", 
+      "kalmar_pop_up/5.jpg", 
+      "kalmar_pop_up/6.jpg", 
+      "kalmar_pop_up/7.jpg"
+    ], 
+    "date": "December 2018"
+  },
+  "paul-smith-digital-campaign": {
+    "category": "Reports", 
+    "hero": "paul_smith/1.png", 
+    "title": "Paul Smith Digital Strategy Campaign", 
+    "text": "This report analysed the weakness of Paul Smith's digital strategy and proposed a new plan focused on consumer's facilitation when purchasing online.", 
+    "carousel": [
+      "paul_smith/1.png", 
+      "paul_smith/2.png", 
+      "paul_smith/3.png", 
+      "paul_smith/4.png", 
+      "paul_smith/5.png", 
+      "paul_smith/6.png", 
+      "paul_smith/7.png", 
+      "paul_smith/8.png", 
+      "paul_smith/9.png", 
+      "paul_smith/10.png", 
+      "paul_smith/11.png"
+    ], 
+    "date": "March 2018"
+  },
+  "denim-market-analysis": {
+    "category": "Reports", 
+    "hero": "denim/1.png", 
+    "title": "Denim Market Analysis", 
+    "text": "Analysis of the factors affecting the growth of the denim market.", 
+    "carousel": [
+      "denim/1.png", 
+      "denim/2.png", 
+      "denim/3.png", 
+      "denim/4.png", 
+      "denim/5.png", 
+      "denim/6.png", 
+      "denim/7.png", 
+      "denim/8.png", 
+      "denim/9.png"
+    ], 
+    "date": "November 2017"
+  },
+  "90s-glitter-party": {
+    "category": "Events", 
+    "hero": "glitter_party/1.jpg", 
+    "title": "90's Glitter Party", 
+    "text": "University Christmas Party, 90's Glitter Theme.", 
+    "carousel": [
+      "glitter_party/1.jpg", 
+      "glitter_party/2.jpg", 
+      "glitter_party/3.jpg", 
+      "glitter_party/4.jpg"
+    ], 
+    "date": "December 2018"
+  },
+  "india-as-an-emerging-market": {
+    "category": "Reports", 
+    "hero": "india_emerging_market/1.png", 
+    "title": "India: Emerging Market", 
+    "text": "Analysis on India as an Emerging Market and How to Explore Business Opportunities.", 
+    "carousel": [
+      "india_emerging_market/1.png", 
+      "india_emerging_market/2.png", 
+      "india_emerging_market/3.png", 
+      "india_emerging_market/4.png", 
+      "india_emerging_market/5.png", 
+      "india_emerging_market/6.png", 
+      "india_emerging_market/7.png", 
+      "india_emerging_market/8.png", 
+      "india_emerging_market/9.png"
+    ], 
+    "date": "April 2018"
+  },
+  "trumpesters-analysis": {
+    "category": "Reports", 
+    "hero": "consuming_behaviour/1.png", 
+    "title": "Consumer Behaviour Analysis", 
+    "text": "An exploratory report of the sub-culture based on Donald Trump protesters and University students. ", 
+    "carousel": [
+      "consuming_behaviour/1.png", 
+      "consuming_behaviour/2.png", 
+      "consuming_behaviour/3.png", 
+      "consuming_behaviour/4.png", 
+      "consuming_behaviour/5.png"
+    ], 
+    "date": "May 2017"
+  },
+  "21st-century-challenges": {
+    "category": "Reports", 
+    "hero": "migration/1.png", 
+    "title": "Challenges in the 21st Century and How Art, Fashion and Design can Influence Change", 
+    "text": "The challenges we Face in The 21st Century and How Can Art, Design and Fashion Influence Change For a More Sustainable and Ethical Existance", 
+    "carousel": [
+      "migration/1.png", 
+      "migration/2.png", 
+      "migration/3.png", 
+      "migration/4.png", 
+      "migration/5.png", 
+      "migration/6.png", 
+      "migration/7.png", 
+      "migration/8.png", 
+      "migration/9.png", 
+      "migration/10.png"
+    ], 
+    "date": "January 2019"
+  },
+  "the-state-of-water": {
+    "category": "Reports", 
+    "hero": "water/1.png", 
+    "title": "The State of Water in The 21st Century", 
+    "text": "This essay will focus on water and how this is a social problem we face in the 21st century, all over the world; this subject is very complex and has different areas to talk about.", 
+    "carousel": [
+      "water/1.png", 
+      "water/2.png", 
+      "water/3.png", 
+      "water/4.png", 
+      "water/5.png", 
+      "water/6.png", 
+      "water/7.png", 
+      "water/8.png", 
+      "water/9.png"
+    ], 
+    "date": "January 2018"
+  },
+  "hm-inspired-styling-anna": {
+    "category": "Styling", 
+    "hero": "anna/1.jpg", 
+    "title": "H&M Inspired Styling", 
+    "text": "H&M inspired styling with Anna", 
+    "carousel": [
+      "anna/1.jpg", 
+      "anna/2.jpg", 
+      "anna/3.jpg", 
+      "anna/4.jpg", 
+      "anna/5.jpg", 
+      "anna/6.jpg", 
+      "anna/7.jpg", 
+      "anna/8.jpg", 
+      "anna/9.jpg", 
+      "anna/10.jpg", 
+      "anna/11.jpg", 
+      "anna/12.jpg", 
+      "anna/13.jpg", 
+      "anna/14.jpg", 
+      "anna/15.jpg"
+    ], 
+    "date": "March 2017"
+  },
+  "hm-creative-catalogue": {
+    "category": "Reports", 
+    "hero": "hm_catalogue/1.png", 
+    "title": "H&M Creative Products", 
+    "text": "H&M Proposed Products", 
+    "carousel": [
+      "hm_catalogue/1.png", 
+      "hm_catalogue/2.png", 
+      "hm_catalogue/3.png", 
+      "hm_catalogue/4.png", 
+      "hm_catalogue/5.png", 
+      "hm_catalogue/6.png", 
+      "hm_catalogue/7.png", 
+      "hm_catalogue/8.png"
+    ], 
+    "date": "May 2017"
+  },
+  "hm-inspired-styling-rosie": {
+    "category": "Styling", 
+    "hero": "rosie/1.jpg", 
+    "title": "H&M inspired Styling", 
+    "text": "H&M inspired styling with Rosie", 
+    "carousel": [
+      "rosie/1.jpg", 
+      "rosie/2.jpg", 
+      "rosie/3.jpg", 
+      "rosie/4.jpg", 
+      "rosie/5.jpg", 
+      "rosie/6.jpg", 
+      "rosie/7.jpg", 
+      "rosie/8.jpg", 
+      "rosie/9.jpg", 
+      "rosie/10.jpg"
+    ], 
+    "date": "March 2017"
+  },
+  "hm-conscious-campaign": {
+    "category": "Reports", 
+    "hero": "hm_campaign/1.png", 
+    "title": "H&M Creative Campaign", 
+    "text": "This report proposes H&M Conscious collaboration with local artists to create patches and stickers with a month-long workshop in stores.", 
+    "carousel": [
+      "hm_campaign/1.png", 
+      "hm_campaign/2.png", 
+      "hm_campaign/3.png", 
+      "hm_campaign/4.png", 
+      "hm_campaign/5.png", 
+      "hm_campaign/6.png", 
+      "hm_campaign/7.png", 
+      "hm_campaign/8.png", 
+      "hm_campaign/9.png"
+    ], 
+    "date": "May 2017"
+  },
+  "pearl-earring-photoshoot": {
+    "category": "Styling", 
+    "hero": "centro_pearl/1.jpg", 
+    "title": "Girl with a Pearl Earring Inspired Phosothoot", 
+    "text": "Photoshoot in Centro, School of Art and Design in Mexico City", 
+    "carousel": [
+      "centro_pearl/1.jpg", 
+      "centro_pearl/2.jpg", 
+      "centro_pearl/3.jpg"
+    ], 
+    "date": "July 2014"
+  },
+  "80s-inspired-photoshoot": {
+    "category": "Styling", 
+    "hero": "80s/1.jpg", 
+    "title": "80's Inspired Photoshoot",
+    "carousel": [
+      "80s/1.jpg", 
+      "80s/2.jpg", 
+      "80s/3.jpg"
+    ], 
+    "date": "May 2011"
   }
 }

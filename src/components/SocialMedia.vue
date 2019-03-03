@@ -1,12 +1,13 @@
 <template>
   <div>
     <v-btn
-      v-for="(item, i) in items.slice(0, large ? items.length : 3)"
+      v-for="(item, i) in items"
       :key="i"
       fab
       class="ma-2"
       :large="large"
       color="info"
+      :href="item.link"
     >
       <v-icon
         dark
@@ -24,28 +25,27 @@ export default {
       default: false
     }
   },
-
   data: () => ({
     items: [
       {
-        name: 'Twitter',
-        icon: 'mdi-twitter'
-      },
-      {
         name: 'Instagram',
-        icon: 'mdi-instagram'
+        icon: 'mdi-instagram',
+        link: 'https://www.instagram.com/marahzv/'
       },
       {
-        name: 'Facebook',
-        icon: 'mdi-facebook'
+        name: 'LinkedIn',
+        icon: 'mdi-linkedin',
+        link: 'https://www.linkedin.com/in/mara-hernandez-villanueva-37980a171/'
+      },
+      {
+        name: 'GitHub',
+        icon: 'mdi-git',
+        link: 'https://github.com/marahzv'
       },
       {
         name: 'Email',
-        icon: 'mdi-email'
-      },
-      {
-        name: 'Phone',
-        icon: 'mdi-phone'
+        icon: 'mdi-email',
+        link: 'mailto:marahzv@gmail.com'
       }
     ]
   })

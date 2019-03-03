@@ -2,7 +2,6 @@
   <section id="projects">
     <base-page-heading>
       Projects
-      <template slot="sub">I have done some really cool things.</template>
     </base-page-heading>
     <feed :data="getProjects" :layout="layout" :single-component="'ProjectsSingle'">
       <slot />
@@ -17,7 +16,7 @@ export default {
     Feed: () => import('@/components/Feed')
   },
   data: () => ({
-    layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 2, 1]
+    layout: [1, 3, 3, 3, 2, 2, 1, 2, 2, 1, 3, 3, 3, 1, 2, 2, 3, 3, 3, 1, 2, 2]
   }),
   computed: {
     ...mapGetters(['getProjects'])
