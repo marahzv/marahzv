@@ -4,6 +4,11 @@
 export default {
   buttons: [
     {
+      name: 'Home',
+      routeName: 'Welcome',
+      icon: 'mdi-home'
+    },
+    {
       name: 'Projects',
       routeName: 'Projects',
       icon: 'mdi-folder-multiple-outline'
