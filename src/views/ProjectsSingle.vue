@@ -15,14 +15,14 @@
               </v-flex>
             </v-layout>
           </v-container>
-          <v-container v-if="project.carousel" grid-list-md text-xs-center>
+          <v-container v-if="project.images" grid-list-md text-xs-center>
             <v-layout row wrap>
-              <v-flex v-for="thumb in carousel" :key="thumb.id" xs4 @click="showLightbox(thumb.name)">
+              <v-flex v-for="thumb in projectImages" :key="thumb.id" xs4 @click="showLightbox(thumb.name)">
                 <v-img :src="thumb.name" class="lightbox-img" contain />
               </v-flex>
             </v-layout>
           </v-container>
-          <lightbox v-if="project.carousel" id="projectLightbox" ref="lightbox" :images="carousel" />
+          <lightbox v-if="project.images" id="projectLightbox" ref="lightbox" :images="projectImages" />
         </v-flex>
       </v-layout>
     </v-container>
@@ -35,7 +35,7 @@ import images from '@/plugins/images'
 export default {
   data: () => ({
     project: undefined,
-    carousel: undefined
+    projectImages: undefined
   }),
   computed: {
     ...mapGetters(['getProjectsBySlug'])
@@ -49,8 +49,8 @@ export default {
   methods: {
     initialise () {
       this.project = this.getProjectsBySlug(this.$route.params.slug)
-      if (this.project.carousel) {
-        this.carousel = images.generateImageUrls(this.project.carousel, 'projects')
+      if (this.project.images) {
+        this.projectImages = images.generateImageUrls(this.project.images, 'projects')
       }
     },
     showLightbox (imageName) {

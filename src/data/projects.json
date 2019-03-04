@@ -4,19 +4,19 @@
     "hero": "modern_consumption_in_luxury/1.png", 
     "title": "How Does Modern Consumption Influence Counterfeits in the Luxury Market?", 
     "text": "This report examines how modern consumption, especially within Generation Z, influence counterfeits in the luxury market. The luxury market has had a steady growth and is still predicted to grow, but with popularity within the luxury market, comes growth in the counterfeit market as well.", 
-    "carousel": [
-      "modern_consumption_in_luxury/1.png", 
-      "modern_consumption_in_luxury/2.png", 
-      "modern_consumption_in_luxury/3.png", 
-      "modern_consumption_in_luxury/4.png", 
-      "modern_consumption_in_luxury/5.png", 
-      "modern_consumption_in_luxury/6.png", 
-      "modern_consumption_in_luxury/7.png", 
-      "modern_consumption_in_luxury/8.png", 
-      "modern_consumption_in_luxury/9.png", 
-      "modern_consumption_in_luxury/10.png", 
-      "modern_consumption_in_luxury/11.png", 
-      "modern_consumption_in_luxury/12.png"
+    "images": [
+      { "name": "modern_consumption_in_luxury/1.png" }, 
+      { "name": "modern_consumption_in_luxury/2.png" }, 
+      { "name": "modern_consumption_in_luxury/3.png" }, 
+      { "name": "modern_consumption_in_luxury/4.png" }, 
+      { "name": "modern_consumption_in_luxury/5.png" }, 
+      { "name": "modern_consumption_in_luxury/6.png" }, 
+      { "name": "modern_consumption_in_luxury/7.png" }, 
+      { "name": "modern_consumption_in_luxury/8.png" }, 
+      { "name": "modern_consumption_in_luxury/9.png" }, 
+      { "name": "modern_consumption_in_luxury/10.png" }, 
+      { "name": "modern_consumption_in_luxury/11.png" }, 
+      { "name": "modern_consumption_in_luxury/12.png" }
     ], 
     "date": "January 2019"
   },
@@ -25,68 +25,68 @@
     "hero": "generation_z/1.jpg", 
     "title": "Generation Z and Luxury Photoshoot", 
     "text": "Photoshoot inspired by the importance of counterfeits in the luxury market, especially within Generation Z.", 
-    "carousel": [
-      "generation_z/1.jpg", 
-      "generation_z/2.jpg", 
-      "generation_z/3.jpg", 
-      "generation_z/4.jpg", 
-      "generation_z/5.jpg", 
-      "generation_z/6.jpg", 
-      "generation_z/7.jpg", 
-      "generation_z/8.jpg", 
-      "generation_z/9.jpg", 
-      "generation_z/10.jpg", 
-      "generation_z/11.jpg", 
-      "generation_z/12.jpg", 
-      "generation_z/13.jpg", 
-      "generation_z/14.jpg", 
-      "generation_z/15.jpg", 
-      "generation_z/16.jpg", 
-      "generation_z/17.jpg", 
-      "generation_z/18.jpg", 
-      "generation_z/19.jpg", 
-      "generation_z/20.jpg", 
-      "generation_z/21.jpg", 
-      "generation_z/22.jpg", 
-      "generation_z/23.jpg", 
-      "generation_z/24.jpg", 
-      "generation_z/25.jpg", 
-      "generation_z/26.jpg", 
-      "generation_z/27.jpg", 
-      "generation_z/28.jpg", 
-      "generation_z/29.jpg", 
-      "generation_z/30.jpg", 
-      "generation_z/31.jpg", 
-      "generation_z/32.jpg", 
-      "generation_z/33.jpg", 
-      "generation_z/34.jpg", 
-      "generation_z/35.jpg"
+    "images": [
+      { "name": "generation_z/1.jpg" }, 
+      { "name": "generation_z/2.jpg" }, 
+      { "name": "generation_z/3.jpg" }, 
+      { "name": "generation_z/4.jpg" }, 
+      { "name": "generation_z/5.jpg" }, 
+      { "name": "generation_z/6.jpg" }, 
+      { "name": "generation_z/7.jpg" }, 
+      { "name": "generation_z/8.jpg" }, 
+      { "name": "generation_z/9.jpg" }, 
+      { "name": "generation_z/10.jpg" }, 
+      { "name": "generation_z/11.jpg" }, 
+      { "name": "generation_z/12.jpg" }, 
+      { "name": "generation_z/13.jpg" }, 
+      { "name": "generation_z/14.jpg" }, 
+      { "name": "generation_z/15.jpg" }, 
+      { "name": "generation_z/16.jpg" }, 
+      { "name": "generation_z/17.jpg" }, 
+      { "name": "generation_z/18.jpg" }, 
+      { "name": "generation_z/19.jpg" }, 
+      { "name": "generation_z/20.jpg" }, 
+      { "name": "generation_z/21.jpg" }, 
+      { "name": "generation_z/22.jpg" }, 
+      { "name": "generation_z/23.jpg" }, 
+      { "name": "generation_z/24.jpg" }, 
+      { "name": "generation_z/25.jpg" }, 
+      { "name": "generation_z/26.jpg" }, 
+      { "name": "generation_z/27.jpg" }, 
+      { "name": "generation_z/28.jpg" }, 
+      { "name": "generation_z/29.jpg" }, 
+      { "name": "generation_z/30.jpg" }, 
+      { "name": "generation_z/31.jpg" }, 
+      { "name": "generation_z/32.jpg" }, 
+      { "name": "generation_z/33.jpg" }, 
+      { "name": "generation_z/34.jpg" }, 
+      { "name": "generation_z/35.jpg" }
     ], 
     "date": "January 2019"
   },
   "overconsumption-video": {
     "category": "Video", 
-    "date": "November 2018", 
-    "title": "Reflection of Overconsumption Nowadays", 
     "hero": "counterfeits_video/1.png", 
-    "text": "Video reflecting nowadays consumption and how luxury's market growth has impulsed counterfeits.",
-    "video": "https://player.vimeo.com/video/321051180"
+    "title": "Reflection of Overconsumption Nowadays", 
+    "text": "Video reflecting nowadays consumption and how luxury's market growth has impulsed counterfeits.", 
+    "video": "https://player.vimeo.com/video/321051180", 
+    "date": "November 2018"
   },
   "modern-consumption-analysis": {
     "category": "Reports", 
     "hero": "counterfeit_presentation/1.png", 
     "title": "Modern Consumption Analysis", 
     "text": "Initial Analysis of Modern Consumption and it's Effect on Counterfeit Products in the Luxury Market", 
-    "carousel": [
-      "counterfeit_presentation/1.png", 
-      "counterfeit_presentation/2.png", 
-      "counterfeit_presentation/3.png", 
-      "counterfeit_presentation/4.png", 
-      "counterfeit_presentation/5.png", 
-      "counterfeit_presentation/6.png", 
-      "counterfeit_presentation/7.png", 
-      "counterfeit_presentation/8.png", 
-      "counterfeit_presentation/9.png"
+    "images": [
+      { "name": "counterfeit_presentation/1.png" }, 
+      { "name": "counterfeit_presentation/2.png" }, 
+      { "name": "counterfeit_presentation/3.png" }, 
+      { "name": "counterfeit_presentation/4.png" }, 
+      { "name": "counterfeit_presentation/5.png" }, 
+      { "name": "counterfeit_presentation/6.png" }, 
+      { "name": "counterfeit_presentation/7.png" }, 
+      { "name": "counterfeit_presentation/8.png" }, 
+      { "name": "counterfeit_presentation/9.png" }
     ], 
     "date": "December 2018"
   },
@@ -95,35 +95,36 @@
     "hero": "sora_report/1.png", 
     "title": "Sora", 
     "text": "Sora is a sustainable denim brand created based on current consumer behaviour trends. Selfriedges was the proposed retailer and was analysed in order to predict sales success. ", 
-    "carousel": [
-      "sora_report/1.png", 
-      "sora_report/2.png", 
-      "sora_report/3.png", 
-      "sora_report/4.png", 
-      "sora_report/5.png", 
-      "sora_report/6.png", 
-      "sora_report/7.png", 
-      "sora_report/8.png", 
-      "sora_report/9.png", 
-      "sora_report/10.png", 
-      "sora_report/11.png", 
-      "sora_report/12.png", 
-      "sora_report/13.png", 
-      "sora_report/14.png", 
-      "sora_report/15.png", 
-      "sora_report/16.png", 
-      "sora_report/17.png"
+    "images": [
+      { "name": "sora_report/1.png" }, 
+      { "name": "sora_report/2.png" }, 
+      { "name": "sora_report/3.png" }, 
+      { "name": "sora_report/4.png" }, 
+      { "name": "sora_report/5.png" }, 
+      { "name": "sora_report/6.png" }, 
+      { "name": "sora_report/7.png" }, 
+      { "name": "sora_report/8.png" }, 
+      { "name": "sora_report/9.png" }, 
+      { "name": "sora_report/10.png" }, 
+      { "name": "sora_report/11.png" }, 
+      { "name": "sora_report/12.png" }, 
+      { "name": "sora_report/13.png" }, 
+      { "name": "sora_report/14.png" }, 
+      { "name": "sora_report/15.png" }, 
+      { "name": "sora_report/16.png" }, 
+      { "name": "sora_report/17.png" }
     ], 
     "date": "January 2018"
-  },"sora-moodboards": {
+  },
+  "sora-moodboards": {
     "category": "Moodboards", 
     "hero": "sora_moodboards/1.png", 
     "title": "Sora Moodboards", 
     "text": "Inspiration of the Sora brand, its products, shapes and the innovative technologies in denim.  ", 
-    "carousel": [
-      "sora_moodboards/1.png", 
-      "sora_moodboards/2.png", 
-      "sora_moodboards/3.png"
+    "images": [
+      { "name": "sora_moodboards/1.png" }, 
+      { "name": "sora_moodboards/2.png" }, 
+      { "name": "sora_moodboards/3.png" }
     ], 
     "date": "January 2018"
   },
@@ -132,19 +133,19 @@
     "hero": "kurv/13.png", 
     "title": "Kurv", 
     "text": "Exploratory research in retail logistics, distribution strategy and supply chain. Developed an innovative international strategy focusing on luxurious homewear and retail diaplay.", 
-    "carousel": [
-      "kurv/1.png", 
-      "kurv/2.png", 
-      "kurv/3.png", 
-      "kurv/4.png", 
-      "kurv/5.png", 
-      "kurv/6.png", 
-      "kurv/7.png", 
-      "kurv/8.png", 
-      "kurv/9.png", 
-      "kurv/10.png", 
-      "kurv/11.png", 
-      "kurv/12.png"
+    "images": [
+      { "name": "kurv/1.png" }, 
+      { "name": "kurv/2.png" }, 
+      { "name": "kurv/3.png" }, 
+      { "name": "kurv/4.png" }, 
+      { "name": "kurv/5.png" }, 
+      { "name": "kurv/6.png" }, 
+      { "name": "kurv/7.png" }, 
+      { "name": "kurv/8.png" }, 
+      { "name": "kurv/9.png" }, 
+      { "name": "kurv/10.png" }, 
+      { "name": "kurv/11.png" }, 
+      { "name": "kurv/12.png" }
     ], 
     "date": "May 2018"
   },
@@ -153,13 +154,13 @@
     "hero": "kalmar_shoot/1.jpg", 
     "title": "Kalmar Photoshoot", 
     "text": "Photoshoot with Kalmar Products", 
-    "carousel": [
-      "kalmar_shoot/2.jpg", 
-      "kalmar_shoot/3.jpg", 
-      "kalmar_shoot/4.jpg", 
-      "kalmar_shoot/5.jpg", 
-      "kalmar_shoot/6.jpg", 
-      "kalmar_shoot/7.jpg"
+    "images": [
+      { "name": "kalmar_shoot/2.jpg" }, 
+      { "name": "kalmar_shoot/3.jpg" }, 
+      { "name": "kalmar_shoot/4.jpg" }, 
+      { "name": "kalmar_shoot/5.jpg" }, 
+      { "name": "kalmar_shoot/6.jpg" }, 
+      { "name": "kalmar_shoot/7.jpg" }
     ], 
     "date": "February 2019"
   },
@@ -168,13 +169,13 @@
     "hero": "kalmar_pop_up/1.jpg", 
     "title": "Kalmar Pop-up Store", 
     "text": "Christmas Pop-Up Store in Eccleston Yard", 
-    "carousel": [ 
-      "kalmar_pop_up/2.jpg", 
-      "kalmar_pop_up/3.jpg", 
-      "kalmar_pop_up/4.jpg", 
-      "kalmar_pop_up/5.jpg", 
-      "kalmar_pop_up/6.jpg", 
-      "kalmar_pop_up/7.jpg"
+    "images": [
+      { "name": "kalmar_pop_up/2.jpg" }, 
+      { "name": "kalmar_pop_up/3.jpg" }, 
+      { "name": "kalmar_pop_up/4.jpg" }, 
+      { "name": "kalmar_pop_up/5.jpg" }, 
+      { "name": "kalmar_pop_up/6.jpg" }, 
+      { "name": "kalmar_pop_up/7.jpg" }
     ], 
     "date": "December 2018"
   },
@@ -183,18 +184,18 @@
     "hero": "paul_smith/1.png", 
     "title": "Paul Smith Digital Strategy Campaign", 
     "text": "This report analysed the weakness of Paul Smith's digital strategy and proposed a new plan focused on consumer's facilitation when purchasing online.", 
-    "carousel": [
-      "paul_smith/1.png", 
-      "paul_smith/2.png", 
-      "paul_smith/3.png", 
-      "paul_smith/4.png", 
-      "paul_smith/5.png", 
-      "paul_smith/6.png", 
-      "paul_smith/7.png", 
-      "paul_smith/8.png", 
-      "paul_smith/9.png", 
-      "paul_smith/10.png", 
-      "paul_smith/11.png"
+    "images": [
+      { "name": "paul_smith/1.png" }, 
+      { "name": "paul_smith/2.png" }, 
+      { "name": "paul_smith/3.png" }, 
+      { "name": "paul_smith/4.png" }, 
+      { "name": "paul_smith/5.png" }, 
+      { "name": "paul_smith/6.png" }, 
+      { "name": "paul_smith/7.png" }, 
+      { "name": "paul_smith/8.png" }, 
+      { "name": "paul_smith/9.png" }, 
+      { "name": "paul_smith/10.png" }, 
+      { "name": "paul_smith/11.png" }
     ], 
     "date": "March 2018"
   },
@@ -203,16 +204,16 @@
     "hero": "denim/1.png", 
     "title": "Denim Market Analysis", 
     "text": "Analysis of the factors affecting the growth of the denim market.", 
-    "carousel": [
-      "denim/1.png", 
-      "denim/2.png", 
-      "denim/3.png", 
-      "denim/4.png", 
-      "denim/5.png", 
-      "denim/6.png", 
-      "denim/7.png", 
-      "denim/8.png", 
-      "denim/9.png"
+    "images": [
+      { "name": "denim/1.png" }, 
+      { "name": "denim/2.png" }, 
+      { "name": "denim/3.png" }, 
+      { "name": "denim/4.png" }, 
+      { "name": "denim/5.png" }, 
+      { "name": "denim/6.png" }, 
+      { "name": "denim/7.png" }, 
+      { "name": "denim/8.png" }, 
+      { "name": "denim/9.png" }
     ], 
     "date": "November 2017"
   },
@@ -221,10 +222,10 @@
     "hero": "glitter_party/1.jpg", 
     "title": "90's Glitter Party", 
     "text": "University Christmas Party, 90's Glitter Theme.", 
-    "carousel": [
-      "glitter_party/1.jpg", 
-      "glitter_party/3.jpg", 
-      "glitter_party/4.jpg"
+    "images": [
+      { "name": "glitter_party/1.jpg" }, 
+      { "name": "glitter_party/3.jpg" }, 
+      { "name": "glitter_party/4.jpg" }
     ], 
     "date": "December 2018"
   },
@@ -233,16 +234,16 @@
     "hero": "india_emerging_market/1.png", 
     "title": "India: Emerging Market", 
     "text": "Analysis on India as an Emerging Market and How to Explore Business Opportunities.", 
-    "carousel": [
-      "india_emerging_market/1.png", 
-      "india_emerging_market/2.png", 
-      "india_emerging_market/3.png", 
-      "india_emerging_market/4.png", 
-      "india_emerging_market/5.png", 
-      "india_emerging_market/6.png", 
-      "india_emerging_market/7.png", 
-      "india_emerging_market/8.png", 
-      "india_emerging_market/9.png"
+    "images": [
+      { "name": "india_emerging_market/1.png" }, 
+      { "name": "india_emerging_market/2.png" }, 
+      { "name": "india_emerging_market/3.png" }, 
+      { "name": "india_emerging_market/4.png" }, 
+      { "name": "india_emerging_market/5.png" }, 
+      { "name": "india_emerging_market/6.png" }, 
+      { "name": "india_emerging_market/7.png" }, 
+      { "name": "india_emerging_market/8.png" }, 
+      { "name": "india_emerging_market/9.png" }
     ], 
     "date": "April 2018"
   },
@@ -251,12 +252,12 @@
     "hero": "consuming_behaviour/1.png", 
     "title": "Consumer Behaviour Analysis", 
     "text": "An exploratory report of the sub-culture based on Donald Trump protesters and University students. ", 
-    "carousel": [
-      "consuming_behaviour/1.png", 
-      "consuming_behaviour/2.png", 
-      "consuming_behaviour/3.png", 
-      "consuming_behaviour/4.png", 
-      "consuming_behaviour/5.png"
+    "images": [
+      { "name": "consuming_behaviour/1.png" }, 
+      { "name": "consuming_behaviour/2.png" }, 
+      { "name": "consuming_behaviour/3.png" }, 
+      { "name": "consuming_behaviour/4.png" }, 
+      { "name": "consuming_behaviour/5.png" }
     ], 
     "date": "May 2017"
   },
@@ -265,17 +266,17 @@
     "hero": "migration/1.png", 
     "title": "Challenges in the 21st Century and How Art, Fashion and Design can Influence Change", 
     "text": "The challenges we Face in The 21st Century and How Can Art, Design and Fashion Influence Change For a More Sustainable and Ethical Existance", 
-    "carousel": [
-      "migration/1.png", 
-      "migration/2.png", 
-      "migration/3.png", 
-      "migration/4.png", 
-      "migration/5.png", 
-      "migration/6.png", 
-      "migration/7.png", 
-      "migration/8.png", 
-      "migration/9.png", 
-      "migration/10.png"
+    "images": [
+      { "name": "migration/1.png" }, 
+      { "name": "migration/2.png" }, 
+      { "name": "migration/3.png" }, 
+      { "name": "migration/4.png" }, 
+      { "name": "migration/5.png" }, 
+      { "name": "migration/6.png" }, 
+      { "name": "migration/7.png" }, 
+      { "name": "migration/8.png" }, 
+      { "name": "migration/9.png" }, 
+      { "name": "migration/10.png" }
     ], 
     "date": "January 2019"
   },
@@ -284,16 +285,16 @@
     "hero": "water/1.png", 
     "title": "The State of Water in The 21st Century", 
     "text": "This essay will focus on water and how this is a social problem we face in the 21st century, all over the world; this subject is very complex and has different areas to talk about.", 
-    "carousel": [
-      "water/1.png", 
-      "water/2.png", 
-      "water/3.png", 
-      "water/4.png", 
-      "water/5.png", 
-      "water/6.png", 
-      "water/7.png", 
-      "water/8.png", 
-      "water/9.png"
+    "images": [
+      { "name": "water/1.png" }, 
+      { "name": "water/2.png" }, 
+      { "name": "water/3.png" }, 
+      { "name": "water/4.png" }, 
+      { "name": "water/5.png" }, 
+      { "name": "water/6.png" }, 
+      { "name": "water/7.png" }, 
+      { "name": "water/8.png" }, 
+      { "name": "water/9.png" }
     ], 
     "date": "January 2018"
   },
@@ -302,16 +303,16 @@
     "hero": "anna/1.jpg", 
     "title": "H&M Inspired Styling", 
     "text": "H&M inspired styling with Anna", 
-    "carousel": [
-      "anna/1.jpg", 
-      "anna/3.jpg", 
-      "anna/4.jpg", 
-      "anna/6.jpg", 
-      "anna/8.jpg", 
-      "anna/9.jpg", 
-      "anna/10.jpg", 
-      "anna/11.jpg", 
-      "anna/12.jpg"
+    "images": [
+      { "name": "anna/1.jpg" }, 
+      { "name": "anna/3.jpg" }, 
+      { "name": "anna/4.jpg" }, 
+      { "name": "anna/6.jpg" }, 
+      { "name": "anna/8.jpg" }, 
+      { "name": "anna/9.jpg" }, 
+      { "name": "anna/10.jpg" }, 
+      { "name": "anna/11.jpg" }, 
+      { "name": "anna/12.jpg" }
     ], 
     "date": "March 2017"
   },
@@ -320,15 +321,15 @@
     "hero": "hm_catalogue/1.png", 
     "title": "H&M Creative Products", 
     "text": "H&M Proposed Products", 
-    "carousel": [
-      "hm_catalogue/1.png", 
-      "hm_catalogue/2.png", 
-      "hm_catalogue/3.png", 
-      "hm_catalogue/4.png", 
-      "hm_catalogue/5.png", 
-      "hm_catalogue/6.png", 
-      "hm_catalogue/7.png", 
-      "hm_catalogue/8.png"
+    "images": [
+      { "name": "hm_catalogue/1.png" }, 
+      { "name": "hm_catalogue/2.png" }, 
+      { "name": "hm_catalogue/3.png" }, 
+      { "name": "hm_catalogue/4.png" }, 
+      { "name": "hm_catalogue/5.png" }, 
+      { "name": "hm_catalogue/6.png" }, 
+      { "name": "hm_catalogue/7.png" }, 
+      { "name": "hm_catalogue/8.png" }
     ], 
     "date": "May 2017"
   },
@@ -337,16 +338,16 @@
     "hero": "rosie/1.jpg", 
     "title": "H&M inspired Styling", 
     "text": "H&M inspired styling with Rosie", 
-    "carousel": [
-      "rosie/1.jpg", 
-      "rosie/2.jpg", 
-      "rosie/3.jpg", 
-      "rosie/4.jpg", 
-      "rosie/5.jpg", 
-      "rosie/6.jpg", 
-      "rosie/7.jpg", 
-      "rosie/10.jpg",
-      "rosie/9.jpg"
+    "images": [
+      { "name": "rosie/1.jpg" }, 
+      { "name": "rosie/2.jpg" }, 
+      { "name": "rosie/3.jpg" }, 
+      { "name": "rosie/4.jpg" }, 
+      { "name": "rosie/5.jpg" }, 
+      { "name": "rosie/6.jpg" }, 
+      { "name": "rosie/7.jpg" }, 
+      { "name": "rosie/10.jpg" }, 
+      { "name": "rosie/9.jpg" }
     ], 
     "date": "March 2017"
   },
@@ -355,16 +356,16 @@
     "hero": "hm_campaign/1.png", 
     "title": "H&M Creative Campaign", 
     "text": "This report proposes H&M Conscious collaboration with local artists to create patches and stickers with a month-long workshop in stores.", 
-    "carousel": [
-      "hm_campaign/1.png", 
-      "hm_campaign/2.png", 
-      "hm_campaign/3.png", 
-      "hm_campaign/4.png", 
-      "hm_campaign/5.png", 
-      "hm_campaign/6.png", 
-      "hm_campaign/7.png", 
-      "hm_campaign/8.png", 
-      "hm_campaign/9.png"
+    "images": [
+      { "name": "hm_campaign/1.png" }, 
+      { "name": "hm_campaign/2.png" }, 
+      { "name": "hm_campaign/3.png" }, 
+      { "name": "hm_campaign/4.png" }, 
+      { "name": "hm_campaign/5.png" }, 
+      { "name": "hm_campaign/6.png" }, 
+      { "name": "hm_campaign/7.png" }, 
+      { "name": "hm_campaign/8.png" }, 
+      { "name": "hm_campaign/9.png" }
     ], 
     "date": "May 2017"
   },
@@ -373,22 +374,22 @@
     "hero": "centro_pearl/1.jpg", 
     "title": "Girl with a Pearl Earring Inspired Phosothoot", 
     "text": "Photoshoot in Centro, School of Art and Design in Mexico City", 
-    "carousel": [
-      "centro_pearl/1.jpg", 
-      "centro_pearl/2.jpg", 
-      "centro_pearl/3.jpg"
+    "images": [
+      { "name": "centro_pearl/1.jpg" }, 
+      { "name": "centro_pearl/2.jpg" }, 
+      { "name": "centro_pearl/3.jpg" }
     ], 
     "date": "July 2014"
   },
   "80s-inspired-photoshoot": {
     "category": "Styling", 
     "hero": "80s/1.jpg", 
-    "title": "80's Inspired Photoshoot",
-    "carousel": [ 
-      "80s/2.jpg",
-      "80s/1.jpg", 
-      "80s/3.jpg"
+    "title": "80's Inspired Photoshoot", 
+    "images": [
+      { "name": "80s/2.jpg" }, 
+      { "name": "80s/1.jpg" }, 
+      { "name": "80s/3.jpg" }
     ], 
     "date": "May 2011"
-  }
+  } 
 }
