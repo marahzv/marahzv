@@ -50,7 +50,7 @@ export default {
     initialise () {
       this.project = this.getProjectsBySlug(this.$route.params.slug)
       if (this.project.carousel) {
-        this.carousel = images.generateImageUrls(this.project.carousel)
+        this.carousel = images.generateImageUrls(this.project.carousel, 'projects')
       }
     },
     showLightbox (imageName) {

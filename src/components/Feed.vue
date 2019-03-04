@@ -11,6 +11,7 @@
         :size="layout[i]"
         :value="item"
         :to="{ name: singleComponent, params: { slug: slug } }"
+        :base-folder="baseFolder"
       />
     </v-layout>
   </v-container>
@@ -30,6 +31,10 @@ export default {
     layout: {
       type: Array,
       default: () => ([])
+    },
+    baseFolder: {
+      type: String,
+      required: true
     },
     singleComponent: {
       type: String,

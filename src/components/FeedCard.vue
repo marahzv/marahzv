@@ -1,7 +1,7 @@
 <template>
   <v-flex xs12 :class="classes">
     <base-card :height="value.prominent ? 450 : 350" color="grey lighten-1" dark :to="to">
-      <v-img :src="require(`@/assets/heros/${value.hero}`)" height="100%" gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)">
+      <v-img :src="require(`@/assets/${baseFolder}/${value.hero}`)" height="100%" gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)">
         <v-layout v-if="!value.prominent" fill-height wrap text-xs-right ma-0>
           <v-flex xs12>
             <v-chip label class="mx-0 mb-2 text-uppercase" color="grey darken-3" text-color="white" small @click.stop="">
@@ -25,6 +25,10 @@ export default {
   props: {
     size: {
       type: Number,
+      required: true
+    },
+    baseFolder: {
+      type: String,
       required: true
     },
     value: {

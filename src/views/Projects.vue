@@ -3,7 +3,7 @@
     <base-page-heading>
       PROJECTS
     </base-page-heading>
-    <feed :data="getProjects" :layout="layout" :single-component="'ProjectsSingle'">
+    <feed :data="getProjects" :layout="layout" :single-component="'ProjectsSingle'" :base-folder="'projects'">
       <slot />
     </feed>
   </section>
