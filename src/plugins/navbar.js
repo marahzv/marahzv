@@ -8,12 +8,12 @@ export default {
       routeName: 'Welcome'
     },
     {
-      name: 'Gallery',
-      routeName: 'Gallery'
-    },
-    {
       name: 'Projects',
       routeName: 'Projects'
+    },
+    {
+      name: 'Gallery',
+      routeName: 'Gallery'
     },
     {
       name: 'About',
