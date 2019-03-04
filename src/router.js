@@ -32,6 +32,11 @@ export default new Router({
       component: loadViews('ProjectsSingle')
     },
     {
+      path: '/gallery',
+      name: 'Gallery',
+      component: loadViews('Gallery')
+    },
+    {
       path: '/contact',
       name: 'Contact',
       component: loadViews('Contact')

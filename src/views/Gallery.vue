@@ -6,14 +6,14 @@
     <v-container grid-list-xl>
       <v-layout wrap>
         <v-flex xs12>
-          <v-container grid-list-md text-xs-center>
+          <v-container v-if="gallery" grid-list-md text-xs-center>
             <v-layout row wrap>
-              <v-flex v-for="thumb in carousel" :key="thumb.id" xs3 @click="showLightbox(thumb.name)">
-                <v-img :src="thumb.name" class="lightbox-img" contain />
+              <v-flex v-for="thumb in gallery" :key="thumb.id" xs3 @click="showLightbox(thumb.name)">
+                <v-img :src="require(`@/assets/${baseDir}/${thumbDir}/${thumb.src}`)" class="lightbox-img" contain />
               </v-flex>
             </v-layout>
           </v-container>
-          <lightbox id="projectLightbox" ref="lightbox" :images="carousel" />
+          <lightbox v-if="gallery" id="projectLightbox" ref="lightbox" :images="gallery" />
         </v-flex>
       </v-layout>
     </v-container>
@@ -21,20 +21,22 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import images from '@/plugins/images'
 export default {
   data: () => ({
-    images: undefined
+    baseDir: 'gallery',
+    photoDir: 'photos',
+    thumbDir: 'thumbs',
+    gallery: undefined
   }),
   created () {
     this.initialise()
   },
-  updated () {
-    this.initialise()
-  },
   methods: {
     initialise () {
-      this.images = [] // TODO load images.
+      var imageJSON = require('@/data/gallery.json')
+      this.gallery = images.generateImageUrls(imageJSON, `${this.baseDir}/${this.photoDir}`)
+      console.log(this.gallery)
     },
     showLightbox (imageName) {
       this.$refs.lightbox.show(imageName)
