@@ -9,11 +9,9 @@
         <v-flex xs12>
           <base-text v-if="project.text" class="text-xs-center">{{ project.text }}</base-text>
           <v-container v-if="project.video" grid-list-md text-xs-center>
-            <v-layout row wrap>
-              <v-flex xs8 offset-xs2>
-                <iframe align="center" width="640" height="564" :src="project.video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen />
-              </v-flex>
-            </v-layout>
+            <center>
+              <iframe align="center" width="800" height="450" :src="project.video" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen />
+            </center>
           </v-container>
           <v-container v-if="project.images" grid-list-md text-xs-center>
             <v-layout row wrap>
