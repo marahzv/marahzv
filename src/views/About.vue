@@ -17,8 +17,23 @@
               Hola, I’m Mara. Mexican Fashion Management final year student loving life in the UK! I am an extrovert and a collaborator, which means I am great in team-work but also highly adaptable. I love meeting new people and learning about different cultures; I enjoy travelling and trying new food.
 
               <center>
-                <iframe align="center" width="640" height="564" src="https://player.vimeo.com/video/327177826" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen />
+                <iframe align="center" width="640" height="450" src="https://player.vimeo.com/video/327177826" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen />
               </center>
+              I’m a graduate from the University of Southampton in Fashion Marketing and Management.
+
+              I moved to the UK from Mexico City has given me an international vision of the fashion industry and its importance globally.
+
+              I am native in Spanish and English and can communicate in French.
+
+              Having an international background has helped me to gain a deeper knowledge in various cultures whilst understanding the fashion industry and needs of consumers.
+
+              Throughout the past 3 years I have gained an extensive understanding of different roles in the fashion industry such as sales, operations, marketing, PR, global communications, buying, social media and events with an excellent approach of customer service.
+
+              Also, I have developed my technical skills in the adobe creative suite, Microsoft office and in the photography studio through lighting and styling.
+
+              I am creative, driven, highly adaptable and have a passion to keep learning. I thrive in a collaborative environment with great enthusiasm and have an open and creative approach to my work.
+
+              Gracias!
             </base-text>
             <social-media large />
           </v-flex>
@@ -56,15 +71,7 @@ export default {
 <style scoped>
 #about-layout {
   padding: 50px 50px 50px 50px;
-}
-#about-layout-left {
   height: 100vh;
-
-}
-#about-layout-right {
-  height: 100vh;
-  overflow: scroll;
-  padding-bottom: 100px;
 }
 .mhv-title {
   font-weight: 800!important;
