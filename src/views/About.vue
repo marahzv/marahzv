@@ -73,6 +73,11 @@ export default {
   padding: 50px 50px 50px 50px;
   height: 100vh;
 }
+#about-layout-left {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 .mhv-title {
   font-weight: 800!important;
   margin-bottom: -20px!important;
